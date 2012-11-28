@@ -4,6 +4,7 @@ R.locale.errors = {
   emptyField: 'Required field'
 , missingFullAddress: 'Please enter your full address.'
 , invalidEmail: 'Invalid'
+, unavailableEmail: 'Already taken'
 , invalidCC: 'Invalid'
 , invalidCVV: 'Invalid'
 , invalidCoupon: 'Invalid'
