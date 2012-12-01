@@ -499,7 +499,7 @@ function pullBillingInfoFields($form, billingInfo, options, pull) {
   billingInfo.month = pull.field($form, '.month');
   billingInfo.year = pull.field($form, '.year');
 
-  billingInfo.phone = pull.field($form, '.phone');
+  billingInfo.phone = pull.field($form, '.phone', V(R.isNotEmpty));
   billingInfo.address1 = pull.field($form, '.address1', V(R.isNotEmpty));
   billingInfo.address2 = pull.field($form, '.address2');
   billingInfo.city = pull.field($form, '.city', V(R.isNotEmpty));
