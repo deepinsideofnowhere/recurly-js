@@ -1885,7 +1885,7 @@ R.buildSubscriptionForm = function(options) {
     // == SUBSCRIPTION PLAN GENERAL
     $form.find('.plan .name').text(plan.name);
     $form.find('.plan .recurring_cost .cost').text(''+plan.cost);
-    $form.find('.plan .recurring_cost .interval').text('every '+plan.interval);
+    $form.find('.plan .recurring_cost .interval').text('per '+plan.interval);
 
 
     // == GENERATE ADD-ONS
